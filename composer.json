@@ -17,8 +17,9 @@
         "acquia/memcache-settings": "^1",
         "composer/installers": "^2.1",
         "cweagans/composer-patches": "^1.6",
-        "drupal/core-composer-scaffold": "^10",
-        "drupal/core-recommended": "^9",
+        "drupal/core-composer-scaffold": "9.5.0",
+        "drupal/core-project-message": "9.5.0",
+        "drupal/core-recommended": "9.5.0",
         "drupal/d8w3css": "^2.0",
         "drupal/upgrade_status": "^3.13",
         "drush/drush": "^10.6 || ^11",
@@ -41,7 +42,8 @@
             "drupal/core-composer-scaffold": true,
             "ergebnis/composer-normalize": true,
             "oomphinc/composer-installers-extender": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "drupal/core-project-message": true
         },
         "platform": {
             "php": "7.4"
